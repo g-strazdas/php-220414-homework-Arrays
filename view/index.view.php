@@ -6,7 +6,7 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Mokykla - mokinių pažymių vidurkiai</title>
-<!--    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link href="../style.css" rel="stylesheet"
 </head>
 <body>
@@ -17,9 +17,9 @@
             <?php date_default_timezone_set('Europe/Vilnius');?>
             <?php $header = array_keys($catalog['nr1']);?>
             <?php //var_dump($header); echo $header[0]?>
-            <table class="tbl_loc">
+            <table class="tbl_loc table table-hover">
                 <thead>
-                <tr>
+                <tr class="align-middle">
                     <th><?=ucfirst($header[0]);?></th>
                     <th>Kodas</th>
                     <th><?=ucfirst($header[1]);?></th>
@@ -34,7 +34,7 @@
                     <tr>
                         <td><?=$value[0];?></td>
                         <td><?=substr(sha1(mt_rand()),17,6);?></td>
-                        <td><?=ucfirst($value[1]); //Ąžuolo varto nepasitaikė, bet...?></td>
+                        <td><?=ucfirst($value[1]); //Ąžuolo vardo nepasitaikė, bet...?></td>
                         <td><?=mb_strtoupper($value[2], $encoding ='UTF-8');?></td>
                         <td><?=($value[3] + $value[4] + $value[5])/3;?></td>
                         <td><?=date("Y-m-d");;?></td>

@@ -15,22 +15,27 @@ h1 {
     color: #1552cb;
 }
 
-table.tbl_loc thead th:nth-child(1) {width: 10%;}
-table.tbl_loc thead th:nth-child(2) {width: 10%;}
-table.tbl_loc thead th:nth-child(3) {width: 20%;}
-table.tbl_loc thead th:nth-child(4) {width: 30%;}
-table.tbl_loc thead th:nth-child(5) {width: 15%;}
-table.tbl_loc thead th:nth-child(6) {width: 15%;}
-table.tbl_loc tbody td:nth-child(even) {color: rgb(22,2,41);}
-table.tbl_loc tbody td:nth-child(odd) {color: rgb(158,0,0);}
+.table > :not(:first-child) {border-top: 0px;}
 
-table.tbl_loc td {
+/*table.tbl_loc {border-collapse: collapse;}*/
+
+.tbl_loc thead th:nth-child(1) {width: 10%;}
+.tbl_loc thead th:nth-child(2) {width: 10%;}
+.tbl_loc thead th:nth-child(3) {width: 20%;}
+.tbl_loc thead th:nth-child(4) {width: 30%;}
+.tbl_loc thead th:nth-child(5) {width: 15%;}
+.tbl_loc thead th:nth-child(6) {width: 15%;}
+.tbl_loc tbody td:nth-child(even) {color: rgb(22,2,41);}
+.tbl_loc tbody td:nth-child(odd) {color: rgb(158,0,0);}
+
+.tbl_loc td {
     padding: 8px;
     background: linear-gradient(to bottom, rgba(0,0,0,0.0), rgba(0,0,0,0.3));
     color: white;
-    border: 2px inset #f7fbfd;
+    border: 1px inset #f7fbfd;
 }
-table.tbl_loc th {
+
+.tbl_loc th {
     letter-spacing: 0.2em;
     padding: 10px;
     background: linear-gradient(to bottom, rgba(0,0,0,0.1), rgba(0,0,0,0.5));
@@ -38,12 +43,12 @@ table.tbl_loc th {
     border: 2px inset #f7fbfd;
     text-shadow: 1px 1px 8px black;
 }
-table.tbl_loc{
-    box-shadow: 5px 5px 5px red;
-}
-table.tbl_loc {
+
+.tbl_loc {
     table-layout: fixed;
     margin-left: auto;
     margin-right: auto;
     width: 1000px;
+    box-shadow: 5px 5px 5px red;
+    border: 2px inset #f7fbfd;
 }
