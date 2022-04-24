@@ -3,80 +3,80 @@
 $catalog = [
     'nr1'=>[
         'klasė'=>'5b',
-        'pavardė'=>'backūnaitė',
         'vardas'=>'kamilė',
+        'pavardė'=>'backūnaitė',
         'matematika'=>'5',
         'informacinės technologijos'=>'9',
         'anglų kalba'=>'10'
         ],
     'nr2'=>[
         'klasė'=>'5b',
-        'pavardė'=>'bujauskaitė',
         'vardas'=>'irma',
+        'pavardė'=>'bujauskaitė',
         'matematika'=>'5',
         'informacinės technologijos'=>'9',
         'anglų kalba'=>'10'
     ],
     'nr3'=>[
         'klasė'=>'5b',
-        'pavardė'=>'daminaitis',
         'vardas'=>'martynas',
+        'pavardė'=>'daminaitis',
         'matematika'=>'5',
         'informacinės technologijos'=>'9',
         'anglų kalba'=>'10'
     ],
     'nr4'=>[
         'klasė'=>'5b',
-        'pavardė'=>'dinkevičius',
         'vardas'=>'danas',
+        'pavardė'=>'dinkevičius',
         'matematika'=>'5',
         'informacinės technologijos'=>'9',
         'anglų kalba'=>'10'
     ],
     'nr5'=>[
         'klasė'=>'5b',
-        'pavardė'=>'dubinskaitė',
         'vardas'=>'ugnė',
+        'pavardė'=>'dubinskaitė',
         'matematika'=>'5',
         'informacinės technologijos'=>'9',
         'anglų kalba'=>'10'
     ],
     'nr6'=>[
         'klasė'=>'5b',
-        'pavardė'=>'klimaitė',
         'vardas'=>'beatričė',
+        'pavardė'=>'klimaitė',
         'matematika'=>'5',
         'informacinės technologijos'=>'9',
         'anglų kalba'=>'10'
     ],
     'nr7'=>[
         'klasė'=>'5b',
-        'pavardė'=>'knizikevičius',
         'vardas'=>'ignas',
+        'pavardė'=>'knizikevičius',
         'matematika'=>'5',
         'informacinės technologijos'=>'9',
         'anglų kalba'=>'10'
     ],
     'nr8'=>[
         'klasė'=>'5b',
-        'pavardė'=>'kranauskas',
         'vardas'=>'gabrielis',
+        'pavardė'=>'kranauskas',
         'matematika'=>'5',
         'informacinės technologijos'=>'9',
         'anglų kalba'=>'10'
     ],
     'nr9'=>[
         'klasė'=>'5b',
-        'pavardė'=>'krapukaitis ',
         'vardas'=>'dovydas',
+        'pavardė'=>'krapukaitis ',
         'matematika'=>'5',
         'informacinės technologijos'=>'9',
         'anglų kalba'=>'10'
     ],
     'nr10'=>[
         'klasė'=>'5b',
-        'pavardė'=>'kvietkauskas',
         'vardas'=>'lukas',
+        'pavardė'=>'kvietkauskas',
         'matematika'=>'5',
         'informacinės technologijos'=>'9',
         'anglų kalba'=>'10'
