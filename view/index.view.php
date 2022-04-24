@@ -5,24 +5,25 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Prekės</title>
-    <!--php paskaitos 1 dalies užduotis. 2022 04 14 d.-->
+    <title>Mokykla - mokinių pažymių vidurkiai</title>
+    <link href="../style.css" rel="stylesheet"
 </head>
 <body>
+<h1>Mokyklos mokinių pažymių vidurkiai</h1>
 <section>
         <div>
             <?php setlocale(LC_CTYPE, 'lt_LT.UTF8');?>
             <?php date_default_timezone_set('Europe/Vilnius');?>
             <?php $header = array_keys($catalog['nr1']);?>
             <?php //var_dump($header); echo $header[0]?>
-            <table class="school">
+            <table class="tbl_loc">
                 <thead>
                 <tr>
                     <th><?=ucfirst($header[0]);?></th>
                     <th><?=ucfirst($header[1]);?></th>
                     <th><?=ucfirst($header[2]);?></th>
-                    <th>Kontrolinių<br>darbų vidurkis</th>
-                    <th>Duomenų <br>formavimo data</th>
+                    <th>Kontrolinių darbų vidurkis</th>
+                    <th>Duomenų formavimo data</th>
                 </tr>
                 </thead>
                 <tbody>

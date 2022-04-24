@@ -1,0 +1,46 @@
+html {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 16px;}
+
+body{margin: 0; height: 100vh; padding: 10px 50px 20px;
+    background-color: #eedddd;
+    text-align: center;
+}
+
+
+h1 {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 35px;
+    text-shadow: 6px 6px 6px #c5679a;
+    color: #1552cb;
+}
+
+table.tbl_loc thead th:nth-child(1) {width: 10%;}
+table.tbl_loc thead th:nth-child(2) {width: 20%;}
+table.tbl_loc tbody td:nth-child(even) {color: #19716b;}
+table.tbl_loc tbody td:nth-child(odd) {color: #ff1900;}
+
+table.tbl_loc td {
+    padding: 8px;
+    background: linear-gradient(to bottom, rgba(0,0,0,0.0), rgba(0,0,0,0.3));
+    color: white;
+    border: 2px inset #f7fbfd;
+}
+table.tbl_loc th {
+    letter-spacing: 0.2em;
+    padding: 10px;
+    background: linear-gradient(to bottom, rgba(0,0,0,0.1), rgba(0,0,0,0.5));
+    color: white;
+    border: 2px inset #f7fbfd;
+    text-shadow: 1px 1px 8px black;
+}
+table.tbl_loc{
+    box-shadow: 5px 5px 5px red;
+}
+table.tbl_loc {
+    table-layout: fixed;
+    margin-left: auto;
+    margin-right: auto;
+    width: 700px;
+}
